@@ -13,3 +13,7 @@ def method_1():
 
 
 print(method_1())
+
+
+#method 2: use list comprehension
+sum([x for x in range(1000) if x % 3 == 0 or x % 5 == 0])
